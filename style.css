@@ -5,7 +5,7 @@ body{
     justify-content: center;
     display: flex;
     flex-direction: column;
-    background-image: url("./images/bright-light-black-background.jpg");
+    background-image: url('./images/bright-light-black-background.jpg');
     background-size: cover;
     background-position: center;
     letter-spacing: 5px;
