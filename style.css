@@ -1,0 +1,92 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-image: url(/images/bright-light-black-background.jpg);
+    background-size: cover;
+    background-position: center;
+    letter-spacing: 5px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+
+h1{
+    text-align: center;
+    font-size: 8rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 40px 10px;
+}
+
+
+.cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 40px;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 2rem;
+    background-color: rgba(0, 0, 0, 0.347);
+    border: 2px solid rgba(0, 0, 0, 0.291);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+button{
+    border-radius: 4px;
+    border: 2px solid rgba(0, 0, 0, 0.291);
+    background-color: rgb(255, 132, 0);
+    cursor: pointer;
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+button:hover{
+    background-color: rgb(191, 100, 3);
+}
+
+button:active{
+    background-color: rgb(255, 231, 206);
+}
+
+label{
+    margin-top: 20px;
+    font-size: 3rem;
+    left: 50px;
+}
+
+@media screen and (min-width:531px){
+    button{
+        height: 70px;
+        margin-top: 98px;
+    }
+}
+
+@media screen and (max-width:530px){
+    button{
+        margin-top: 20px;
+        height: 70px;
+    }
+
+    .cont{
+        margin: 0 20px;
+    }
+}
